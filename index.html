@@ -2,12 +2,29 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css">
     <title>Change Calculator</title>
   </head>
   <body>
     <!-- Write your markup here -->
-
+    <h1>Change Calculator</h1>
+    <label>Total Due:</label>
+    <input type="text" id="totalDue"><br>
+    <label>Amount Tendered:</label>
+    <input type="text" id="amountTendered"><br>
+    <button id="calculate" onclick="handleClickEvent()">Calculate:</button><br>
+    <label id="dollars">Dollars:</label>
+    <output type="text" id="dollars"><br>
+    <label id="quarters">Quarters:</label>
+    <output type="text" id="quarters"><br>
+    <label id="dimes">Dimes:</label>
+    <output type="text" id="dimes"><br>
+    <label id="nickels">Nickels:</label>
+    <output type="text" id="nickels"><br>
+    <label id="pennies">Pennies:</label>
+    <output type="text" id="pennies"><br>
     <!-- Don't forget to add your <script> tag here -->
+        <script src="main.js" charset="utf-8"></script>
 
   </body>
 </html>
